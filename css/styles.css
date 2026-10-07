@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #101214;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+.container {
+  width: min(92%, 760px);
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.hero {
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border: 1px solid #777;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: clamp(32px, 7vw, 54px);
+  margin: 18px 0 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.subtitle {
+  max-width: 600px;
+  margin: auto;
+  color: #c8c8c8;
+}
+
+.card {
+  background: #191c20;
+  border: 1px solid #30343a;
+  border-radius: 16px;
+  padding: 28px;
+  margin: 20px 0;
+}
+
+.notice {
+  font-size: 14px;
+  color: #bdbdbd;
+  border-left: 3px solid #777;
+  padding-left: 14px;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  background: #f5f5f5;
+  color: #101214;
+  font-weight: bold;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+li {
+  margin: 10px 0;
+}
+
+footer {
+  text-align: center;
+  color: #8e8e8e;
+  font-size: 13px;
+  padding: 30px 10px;
+}
